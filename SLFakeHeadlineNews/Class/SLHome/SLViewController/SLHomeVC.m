@@ -1,26 +1,23 @@
 //
-//  SLBaseViewController.m
+//  SLHomeVC.m
 //  SLFakeHeadlineNews
 //
-//  Created by smallLabel on 2018/7/5.
+//  Created by smallLabel on 2018/7/6.
 //  Copyright © 2018年 smallLabel. All rights reserved.
 //
 
-#import "SLBaseViewController.h"
+#import "SLHomeVC.h"
 
-@interface SLBaseViewController ()
+
+@interface SLHomeVC ()
 
 @end
 
-@implementation SLBaseViewController
-
-- (void)needRefreshTableViewData {
-    
-}
+@implementation SLHomeVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
 }
 
 - (void)didReceiveMemoryWarning {

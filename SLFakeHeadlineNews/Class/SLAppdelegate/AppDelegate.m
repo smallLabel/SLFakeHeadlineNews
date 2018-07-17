@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "SLTabBarController.h"
+#import <KMCGeigerCounter/KMCGeigerCounter.h>
 @interface AppDelegate ()
 
 @end
@@ -16,7 +17,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    SLTabBarController *tabBarVC = [[SLTabBarController alloc] init];
+    self.window.rootViewController = tabBarVC;
+    [KMCGeigerCounter sharedGeigerCounter].enabled = YES;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

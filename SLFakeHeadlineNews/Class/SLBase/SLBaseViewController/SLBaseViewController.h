@@ -10,4 +10,6 @@
 
 @interface SLBaseViewController : UIViewController
 
+- (void)needRefreshTableViewData;
+
 @end

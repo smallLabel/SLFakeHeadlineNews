@@ -1,22 +1,18 @@
 //
-//  SLBaseViewController.m
+//  SLMicroHeadlineNewsVC.m
 //  SLFakeHeadlineNews
 //
-//  Created by smallLabel on 2018/7/5.
+//  Created by smallLabel on 2018/7/6.
 //  Copyright © 2018年 smallLabel. All rights reserved.
 //
 
-#import "SLBaseViewController.h"
+#import "SLMicroHeadlineNewsVC.h"
 
-@interface SLBaseViewController ()
+@interface SLMicroHeadlineNewsVC ()
 
 @end
 
-@implementation SLBaseViewController
-
-- (void)needRefreshTableViewData {
-    
-}
+@implementation SLMicroHeadlineNewsVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];

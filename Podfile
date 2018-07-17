@@ -16,4 +16,5 @@ target 'SLFakeHeadlineNews' do
   pod 'SDWebImage/WebP'
   pod 'KMCGeigerCounter'
   pod 'FMDB'
+  pod 'PPNetworkHelper'
 end

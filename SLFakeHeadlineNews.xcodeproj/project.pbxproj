@@ -18,6 +18,14 @@
 		E96628E220EDFD20005F193C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E96628E120EDFD20005F193C /* Foundation.framework */; };
 		E96628E620EDFDB0005F193C /* SLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E96628E520EDFDB0005F193C /* SLTabBarController.m */; };
 		E96628E920EE091A005F193C /* SLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E96628E820EE091A005F193C /* SLNavigationController.m */; };
+		E96E454120FDD1F4008264E9 /* SLURLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E96E454020FDD1F4008264E9 /* SLURLManager.m */; };
+		E96E454420FDD344008264E9 /* SLNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E96E454320FDD344008264E9 /* SLNetworkManager.m */; };
+		E96E454720FDD6E1008264E9 /* SLNetWorkBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E96E454620FDD6E1008264E9 /* SLNetWorkBaseModel.m */; };
+		E96E454A20FDDB3A008264E9 /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = E96E454920FDDB3A008264E9 /* MBProgressHUD+Add.m */; };
+		E9AF892420EF04030000DC00 /* SLMicroVideoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AF892320EF04030000DC00 /* SLMicroVideoVC.m */; };
+		E9AF892720EF04330000DC00 /* SLMicroHeadlineNewsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AF892620EF04330000DC00 /* SLMicroHeadlineNewsVC.m */; };
+		E9AF892C20EF048D0000DC00 /* SLHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AF892B20EF048D0000DC00 /* SLHomeVC.m */; };
+		E9C9366A20FDA0D8006791CA /* SLHomeTitleViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C9366920FDA0D8006791CA /* SLHomeTitleViewModel.m */; };
 		E9F730FA20EE1F780086FBB6 /* WMPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F730ED20EE1F780086FBB6 /* WMPageController.m */; };
 		E9F730FB20EE1F780086FBB6 /* UIViewController+WMPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F730EE20EE1F780086FBB6 /* UIViewController+WMPageController.m */; };
 		E9F730FC20EE1F780086FBB6 /* WMMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F730F420EE1F780086FBB6 /* WMMenuItem.m */; };
@@ -28,6 +36,8 @@
 		E9F7310820EE213C0086FBB6 /* SLNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F7310720EE213C0086FBB6 /* SLNavigationBar.m */; };
 		E9F7310B20EE217F0086FBB6 /* SLHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F7310A20EE217F0086FBB6 /* SLHeader.m */; };
 		E9F7310E20EE22D90086FBB6 /* SLVideoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F7310D20EE22D90086FBB6 /* SLVideoVC.m */; };
+		E9F84D9B20EF609E00493AEA /* UIView+AnimationExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F84D9A20EF609E00493AEA /* UIView+AnimationExtend.m */; };
+		E9F84D9E20EF629F00493AEA /* UITabBar+SLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F84D9D20EF629F00493AEA /* UITabBar+SLTabBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +58,22 @@
 		E96628E520EDFDB0005F193C /* SLTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLTabBarController.m; sourceTree = "<group>"; };
 		E96628E720EE091A005F193C /* SLNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLNavigationController.h; sourceTree = "<group>"; };
 		E96628E820EE091A005F193C /* SLNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLNavigationController.m; sourceTree = "<group>"; };
+		E96E453F20FDD1F4008264E9 /* SLURLManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLURLManager.h; sourceTree = "<group>"; };
+		E96E454020FDD1F4008264E9 /* SLURLManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLURLManager.m; sourceTree = "<group>"; };
+		E96E454220FDD344008264E9 /* SLNetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLNetworkManager.h; sourceTree = "<group>"; };
+		E96E454320FDD344008264E9 /* SLNetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLNetworkManager.m; sourceTree = "<group>"; };
+		E96E454520FDD6E1008264E9 /* SLNetWorkBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLNetWorkBaseModel.h; sourceTree = "<group>"; };
+		E96E454620FDD6E1008264E9 /* SLNetWorkBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLNetWorkBaseModel.m; sourceTree = "<group>"; };
+		E96E454820FDDB3A008264E9 /* MBProgressHUD+Add.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Add.h"; sourceTree = "<group>"; };
+		E96E454920FDDB3A008264E9 /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
+		E9AF892220EF04030000DC00 /* SLMicroVideoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLMicroVideoVC.h; sourceTree = "<group>"; };
+		E9AF892320EF04030000DC00 /* SLMicroVideoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLMicroVideoVC.m; sourceTree = "<group>"; };
+		E9AF892520EF04330000DC00 /* SLMicroHeadlineNewsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLMicroHeadlineNewsVC.h; sourceTree = "<group>"; };
+		E9AF892620EF04330000DC00 /* SLMicroHeadlineNewsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLMicroHeadlineNewsVC.m; sourceTree = "<group>"; };
+		E9AF892A20EF048D0000DC00 /* SLHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLHomeVC.h; sourceTree = "<group>"; };
+		E9AF892B20EF048D0000DC00 /* SLHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLHomeVC.m; sourceTree = "<group>"; };
+		E9C9366820FDA0D8006791CA /* SLHomeTitleViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLHomeTitleViewModel.h; sourceTree = "<group>"; };
+		E9C9366920FDA0D8006791CA /* SLHomeTitleViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLHomeTitleViewModel.m; sourceTree = "<group>"; };
 		E9F730ED20EE1F780086FBB6 /* WMPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMPageController.m; sourceTree = "<group>"; };
 		E9F730EE20EE1F780086FBB6 /* UIViewController+WMPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+WMPageController.m"; sourceTree = "<group>"; };
 		E9F730F020EE1F780086FBB6 /* WMScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMScrollView.h; sourceTree = "<group>"; };
@@ -68,6 +94,10 @@
 		E9F7310A20EE217F0086FBB6 /* SLHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLHeader.m; sourceTree = "<group>"; };
 		E9F7310C20EE22D90086FBB6 /* SLVideoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLVideoVC.h; sourceTree = "<group>"; };
 		E9F7310D20EE22D90086FBB6 /* SLVideoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLVideoVC.m; sourceTree = "<group>"; };
+		E9F84D9920EF609E00493AEA /* UIView+AnimationExtend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+AnimationExtend.h"; sourceTree = "<group>"; };
+		E9F84D9A20EF609E00493AEA /* UIView+AnimationExtend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+AnimationExtend.m"; sourceTree = "<group>"; };
+		E9F84D9C20EF629F00493AEA /* UITabBar+SLTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITabBar+SLTabBar.h"; sourceTree = "<group>"; };
+		E9F84D9D20EF629F00493AEA /* UITabBar+SLTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+SLTabBar.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +192,11 @@
 		E96628D520EDFCDC005F193C /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				E96E453D20FDD1C0008264E9 /* SLNetwork */,
+				E9F84D9820EF607A00493AEA /* SLTool */,
+				E9AF892820EF04720000DC00 /* SLHome */,
+				E9F7311120EE234F0086FBB6 /* SLMicroVideo */,
+				E9F7310F20EE234F0086FBB6 /* SLMicroHeadlineNews */,
 				E9F7310020EE20520086FBB6 /* SLBase */,
 				E9F730EB20EE1EC90086FBB6 /* SLComponent */,
 				E96628E320EDFD84005F193C /* SLMain */,
@@ -193,6 +228,54 @@
 				E9F7310A20EE217F0086FBB6 /* SLHeader.m */,
 			);
 			path = SLMain;
+			sourceTree = "<group>";
+		};
+		E96E453D20FDD1C0008264E9 /* SLNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				E96E453E20FDD1C0008264E9 /* SLURLManager */,
+				E96E454220FDD344008264E9 /* SLNetworkManager.h */,
+				E96E454320FDD344008264E9 /* SLNetworkManager.m */,
+				E96E454520FDD6E1008264E9 /* SLNetWorkBaseModel.h */,
+				E96E454620FDD6E1008264E9 /* SLNetWorkBaseModel.m */,
+			);
+			path = SLNetwork;
+			sourceTree = "<group>";
+		};
+		E96E453E20FDD1C0008264E9 /* SLURLManager */ = {
+			isa = PBXGroup;
+			children = (
+				E96E453F20FDD1F4008264E9 /* SLURLManager.h */,
+				E96E454020FDD1F4008264E9 /* SLURLManager.m */,
+			);
+			path = SLURLManager;
+			sourceTree = "<group>";
+		};
+		E9AF892820EF04720000DC00 /* SLHome */ = {
+			isa = PBXGroup;
+			children = (
+				E9C9366720FDA0AC006791CA /* SLViewModel */,
+				E9AF892920EF04720000DC00 /* SLViewController */,
+			);
+			path = SLHome;
+			sourceTree = "<group>";
+		};
+		E9AF892920EF04720000DC00 /* SLViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E9AF892A20EF048D0000DC00 /* SLHomeVC.h */,
+				E9AF892B20EF048D0000DC00 /* SLHomeVC.m */,
+			);
+			path = SLViewController;
+			sourceTree = "<group>";
+		};
+		E9C9366720FDA0AC006791CA /* SLViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E9C9366820FDA0D8006791CA /* SLHomeTitleViewModel.h */,
+				E9C9366920FDA0D8006791CA /* SLHomeTitleViewModel.m */,
+			);
+			path = SLViewModel;
 			sourceTree = "<group>";
 		};
 		E9F730EB20EE1EC90086FBB6 /* SLComponent */ = {
@@ -233,8 +316,6 @@
 		E9F7310020EE20520086FBB6 /* SLBase */ = {
 			isa = PBXGroup;
 			children = (
-				E9F7310F20EE234F0086FBB6 /* SLMicroHeadlineNews */,
-				E9F7311120EE234F0086FBB6 /* SLMicroVideo */,
 				E9F7310120EE20520086FBB6 /* SLBaseViewModel */,
 				E9F7310220EE20520086FBB6 /* SLBaseViewController */,
 			);
@@ -269,6 +350,8 @@
 		E9F7311020EE234F0086FBB6 /* SLController */ = {
 			isa = PBXGroup;
 			children = (
+				E9AF892520EF04330000DC00 /* SLMicroHeadlineNewsVC.h */,
+				E9AF892620EF04330000DC00 /* SLMicroHeadlineNewsVC.m */,
 			);
 			path = SLController;
 			sourceTree = "<group>";
@@ -285,8 +368,23 @@
 		E9F7311220EE234F0086FBB6 /* SLController */ = {
 			isa = PBXGroup;
 			children = (
+				E9AF892220EF04030000DC00 /* SLMicroVideoVC.h */,
+				E9AF892320EF04030000DC00 /* SLMicroVideoVC.m */,
 			);
 			path = SLController;
+			sourceTree = "<group>";
+		};
+		E9F84D9820EF607A00493AEA /* SLTool */ = {
+			isa = PBXGroup;
+			children = (
+				E9F84D9920EF609E00493AEA /* UIView+AnimationExtend.h */,
+				E9F84D9A20EF609E00493AEA /* UIView+AnimationExtend.m */,
+				E9F84D9C20EF629F00493AEA /* UITabBar+SLTabBar.h */,
+				E9F84D9D20EF629F00493AEA /* UITabBar+SLTabBar.m */,
+				E96E454820FDDB3A008264E9 /* MBProgressHUD+Add.h */,
+				E96E454920FDDB3A008264E9 /* MBProgressHUD+Add.m */,
+			);
+			path = SLTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -420,18 +518,28 @@
 			files = (
 				E9F730FC20EE1F780086FBB6 /* WMMenuItem.m in Sources */,
 				E9F730FE20EE1F780086FBB6 /* WMMenuView.m in Sources */,
+				E96E454720FDD6E1008264E9 /* SLNetWorkBaseModel.m in Sources */,
 				E96628DE20EDFCDC005F193C /* AppDelegate.m in Sources */,
 				E9F730FA20EE1F780086FBB6 /* WMPageController.m in Sources */,
+				E9F84D9E20EF629F00493AEA /* UITabBar+SLTabBar.m in Sources */,
 				E96628E620EDFDB0005F193C /* SLTabBarController.m in Sources */,
+				E96E454A20FDDB3A008264E9 /* MBProgressHUD+Add.m in Sources */,
 				E96628E920EE091A005F193C /* SLNavigationController.m in Sources */,
 				E96628DC20EDFCDC005F193C /* main.m in Sources */,
+				E96E454120FDD1F4008264E9 /* SLURLManager.m in Sources */,
 				E9F730FF20EE1F780086FBB6 /* WMProgressView.m in Sources */,
 				E9F7310B20EE217F0086FBB6 /* SLHeader.m in Sources */,
 				E9F7310820EE213C0086FBB6 /* SLNavigationBar.m in Sources */,
+				E9C9366A20FDA0D8006791CA /* SLHomeTitleViewModel.m in Sources */,
 				E9F730FB20EE1F780086FBB6 /* UIViewController+WMPageController.m in Sources */,
+				E9AF892720EF04330000DC00 /* SLMicroHeadlineNewsVC.m in Sources */,
 				E9F7310520EE20640086FBB6 /* SLBaseViewController.m in Sources */,
+				E9AF892C20EF048D0000DC00 /* SLHomeVC.m in Sources */,
+				E96E454420FDD344008264E9 /* SLNetworkManager.m in Sources */,
 				E9F730FD20EE1F780086FBB6 /* WMScrollView.m in Sources */,
 				E9F7310E20EE22D90086FBB6 /* SLVideoVC.m in Sources */,
+				E9AF892420EF04030000DC00 /* SLMicroVideoVC.m in Sources */,
+				E9F84D9B20EF609E00493AEA /* UIView+AnimationExtend.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,10 +681,48 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/SLFakeHeadlineNews/Class/SLComponent\"";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PODS_ROOT)/**",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/DZNEmptyDataSet\"",
+					"\"${PODS_ROOT}/Headers/Public/FMDB\"",
+					"\"${PODS_ROOT}/Headers/Public/KMCGeigerCounter\"",
+					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/MJExtension\"",
+					"\"${PODS_ROOT}/Headers/Public/MJRefresh\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactiveObjC\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/YYCache\"",
+					"\"${PODS_ROOT}/Headers/Public/YYText\"",
+					"\"${PODS_ROOT}/Headers/Public/ZFPlayer\"",
+					"\"${PODS_ROOT}/Headers/Public/libwebp\"",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/SLFakeHeadlineNews/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"$(PODS_ROOT)/**",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/AFNetworking\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/DZNEmptyDataSet\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/FMDB\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/KMCGeigerCounter\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/MBProgressHUD\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/MJExtension\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/MJRefresh\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Masonry\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/ReactiveObjC\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SDWebImage\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/YYCache\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/YYText\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/ZFPlayer\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/libwebp\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.smallLabel.SLFakeHeadlineNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -590,10 +736,48 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/SLFakeHeadlineNews/Class/SLComponent\"";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PODS_ROOT)/**",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/DZNEmptyDataSet\"",
+					"\"${PODS_ROOT}/Headers/Public/FMDB\"",
+					"\"${PODS_ROOT}/Headers/Public/KMCGeigerCounter\"",
+					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/MJExtension\"",
+					"\"${PODS_ROOT}/Headers/Public/MJRefresh\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactiveObjC\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/YYCache\"",
+					"\"${PODS_ROOT}/Headers/Public/YYText\"",
+					"\"${PODS_ROOT}/Headers/Public/ZFPlayer\"",
+					"\"${PODS_ROOT}/Headers/Public/libwebp\"",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/SLFakeHeadlineNews/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"$(PODS_ROOT)/**",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/AFNetworking\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/DZNEmptyDataSet\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/FMDB\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/KMCGeigerCounter\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/MBProgressHUD\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/MJExtension\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/MJRefresh\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Masonry\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/ReactiveObjC\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SDWebImage\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/YYCache\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/YYText\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/ZFPlayer\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/libwebp\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.smallLabel.SLFakeHeadlineNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
