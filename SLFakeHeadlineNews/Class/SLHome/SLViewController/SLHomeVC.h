@@ -8,6 +8,6 @@
 
 #import "WMPageController.h"
 
-@interface SLHomeVC : WMPageController
+@interface SLHomeVC : WMPageController <WMPageControllerDelegate, WMPageControllerDataSource>
 
 @end

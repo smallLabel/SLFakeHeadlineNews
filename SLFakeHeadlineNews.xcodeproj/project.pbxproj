@@ -22,6 +22,12 @@
 		E96E454420FDD344008264E9 /* SLNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E96E454320FDD344008264E9 /* SLNetworkManager.m */; };
 		E96E454720FDD6E1008264E9 /* SLNetWorkBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E96E454620FDD6E1008264E9 /* SLNetWorkBaseModel.m */; };
 		E96E454A20FDDB3A008264E9 /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = E96E454920FDDB3A008264E9 /* MBProgressHUD+Add.m */; };
+		E96E454E20FDDE52008264E9 /* SLHomeTitleRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E96E454D20FDDE52008264E9 /* SLHomeTitleRequest.m */; };
+		E96E455120FDDE73008264E9 /* SLHomeNewsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E96E455020FDDE73008264E9 /* SLHomeNewsRequest.m */; };
+		E96E455420FDDE96008264E9 /* SLHomeTitleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E96E455320FDDE96008264E9 /* SLHomeTitleModel.m */; };
+		E96E455720FDDEFC008264E9 /* SLHomeNewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E96E455620FDDEFC008264E9 /* SLHomeNewsModel.m */; };
+		E96E455A20FDE030008264E9 /* SLHomeJokeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E96E455920FDE030008264E9 /* SLHomeJokeModel.m */; };
+		E96E455E20FDE411008264E9 /* SLHomeNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E96E455D20FDE411008264E9 /* SLHomeNewsCell.m */; };
 		E9AF892420EF04030000DC00 /* SLMicroVideoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AF892320EF04030000DC00 /* SLMicroVideoVC.m */; };
 		E9AF892720EF04330000DC00 /* SLMicroHeadlineNewsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AF892620EF04330000DC00 /* SLMicroHeadlineNewsVC.m */; };
 		E9AF892C20EF048D0000DC00 /* SLHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AF892B20EF048D0000DC00 /* SLHomeVC.m */; };
@@ -66,6 +72,18 @@
 		E96E454620FDD6E1008264E9 /* SLNetWorkBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLNetWorkBaseModel.m; sourceTree = "<group>"; };
 		E96E454820FDDB3A008264E9 /* MBProgressHUD+Add.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Add.h"; sourceTree = "<group>"; };
 		E96E454920FDDB3A008264E9 /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
+		E96E454C20FDDE52008264E9 /* SLHomeTitleRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLHomeTitleRequest.h; sourceTree = "<group>"; };
+		E96E454D20FDDE52008264E9 /* SLHomeTitleRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLHomeTitleRequest.m; sourceTree = "<group>"; };
+		E96E454F20FDDE73008264E9 /* SLHomeNewsRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLHomeNewsRequest.h; sourceTree = "<group>"; };
+		E96E455020FDDE73008264E9 /* SLHomeNewsRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLHomeNewsRequest.m; sourceTree = "<group>"; };
+		E96E455220FDDE96008264E9 /* SLHomeTitleModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLHomeTitleModel.h; sourceTree = "<group>"; };
+		E96E455320FDDE96008264E9 /* SLHomeTitleModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLHomeTitleModel.m; sourceTree = "<group>"; };
+		E96E455520FDDEFC008264E9 /* SLHomeNewsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLHomeNewsModel.h; sourceTree = "<group>"; };
+		E96E455620FDDEFC008264E9 /* SLHomeNewsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLHomeNewsModel.m; sourceTree = "<group>"; };
+		E96E455820FDE030008264E9 /* SLHomeJokeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLHomeJokeModel.h; sourceTree = "<group>"; };
+		E96E455920FDE030008264E9 /* SLHomeJokeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLHomeJokeModel.m; sourceTree = "<group>"; };
+		E96E455C20FDE411008264E9 /* SLHomeNewsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLHomeNewsCell.h; sourceTree = "<group>"; };
+		E96E455D20FDE411008264E9 /* SLHomeNewsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLHomeNewsCell.m; sourceTree = "<group>"; };
 		E9AF892220EF04030000DC00 /* SLMicroVideoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLMicroVideoVC.h; sourceTree = "<group>"; };
 		E9AF892320EF04030000DC00 /* SLMicroVideoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLMicroVideoVC.m; sourceTree = "<group>"; };
 		E9AF892520EF04330000DC00 /* SLMicroHeadlineNewsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLMicroHeadlineNewsVC.h; sourceTree = "<group>"; };
@@ -251,9 +269,37 @@
 			path = SLURLManager;
 			sourceTree = "<group>";
 		};
+		E96E454B20FDDE41008264E9 /* SLModel */ = {
+			isa = PBXGroup;
+			children = (
+				E96E454C20FDDE52008264E9 /* SLHomeTitleRequest.h */,
+				E96E454D20FDDE52008264E9 /* SLHomeTitleRequest.m */,
+				E96E454F20FDDE73008264E9 /* SLHomeNewsRequest.h */,
+				E96E455020FDDE73008264E9 /* SLHomeNewsRequest.m */,
+				E96E455220FDDE96008264E9 /* SLHomeTitleModel.h */,
+				E96E455320FDDE96008264E9 /* SLHomeTitleModel.m */,
+				E96E455520FDDEFC008264E9 /* SLHomeNewsModel.h */,
+				E96E455620FDDEFC008264E9 /* SLHomeNewsModel.m */,
+				E96E455820FDE030008264E9 /* SLHomeJokeModel.h */,
+				E96E455920FDE030008264E9 /* SLHomeJokeModel.m */,
+			);
+			path = SLModel;
+			sourceTree = "<group>";
+		};
+		E96E455B20FDE3EF008264E9 /* SLView */ = {
+			isa = PBXGroup;
+			children = (
+				E96E455C20FDE411008264E9 /* SLHomeNewsCell.h */,
+				E96E455D20FDE411008264E9 /* SLHomeNewsCell.m */,
+			);
+			path = SLView;
+			sourceTree = "<group>";
+		};
 		E9AF892820EF04720000DC00 /* SLHome */ = {
 			isa = PBXGroup;
 			children = (
+				E96E455B20FDE3EF008264E9 /* SLView */,
+				E96E454B20FDDE41008264E9 /* SLModel */,
 				E9C9366720FDA0AC006791CA /* SLViewModel */,
 				E9AF892920EF04720000DC00 /* SLViewController */,
 			);
@@ -525,7 +571,10 @@
 				E96628E620EDFDB0005F193C /* SLTabBarController.m in Sources */,
 				E96E454A20FDDB3A008264E9 /* MBProgressHUD+Add.m in Sources */,
 				E96628E920EE091A005F193C /* SLNavigationController.m in Sources */,
+				E96E455420FDDE96008264E9 /* SLHomeTitleModel.m in Sources */,
+				E96E455720FDDEFC008264E9 /* SLHomeNewsModel.m in Sources */,
 				E96628DC20EDFCDC005F193C /* main.m in Sources */,
+				E96E455120FDDE73008264E9 /* SLHomeNewsRequest.m in Sources */,
 				E96E454120FDD1F4008264E9 /* SLURLManager.m in Sources */,
 				E9F730FF20EE1F780086FBB6 /* WMProgressView.m in Sources */,
 				E9F7310B20EE217F0086FBB6 /* SLHeader.m in Sources */,
@@ -534,9 +583,12 @@
 				E9F730FB20EE1F780086FBB6 /* UIViewController+WMPageController.m in Sources */,
 				E9AF892720EF04330000DC00 /* SLMicroHeadlineNewsVC.m in Sources */,
 				E9F7310520EE20640086FBB6 /* SLBaseViewController.m in Sources */,
+				E96E454E20FDDE52008264E9 /* SLHomeTitleRequest.m in Sources */,
 				E9AF892C20EF048D0000DC00 /* SLHomeVC.m in Sources */,
 				E96E454420FDD344008264E9 /* SLNetworkManager.m in Sources */,
+				E96E455E20FDE411008264E9 /* SLHomeNewsCell.m in Sources */,
 				E9F730FD20EE1F780086FBB6 /* WMScrollView.m in Sources */,
+				E96E455A20FDE030008264E9 /* SLHomeJokeModel.m in Sources */,
 				E9F7310E20EE22D90086FBB6 /* SLVideoVC.m in Sources */,
 				E9AF892420EF04030000DC00 /* SLMicroVideoVC.m in Sources */,
 				E9F84D9B20EF609E00493AEA /* UIView+AnimationExtend.m in Sources */,

@@ -8,7 +8,7 @@
 
 #import "SLHeader.h"
 
-NSString *HN_BASE_URL = @"https://is.snssdk.com/";
+NSString *SL_BASE_URL = @"https://is.snssdk.com/";
 NSString *KHomeStopRefreshNot = @"homeStopRefreshNot";
 
 @implementation SLHeader
